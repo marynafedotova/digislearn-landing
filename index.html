@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digilearn — Master Digital Skills</title>
+  <meta name="description"
+    content="Unlock digital mastery effortlessly. Explore and enhance your skills with our user‑friendly platform." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Online font for convenience; falls back to system UI if blocked -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./scss/dist/style.min.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Digilearn home">
+        <span class="logo-dot"></span> Digilearn
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu" data-nav-toggle>
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <ul id="navMenu" class="nav-list">
+          <li><a href="#why">About us</a></li>
+          <li><a href="#features">Our Class</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <form class="search" role="search">
+        <input type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Total students <span class="badge">9,000+</span></p>
+          <h1>Master Digital Skills <br><span class="accent">with Ease!</span></h1>
+          <p class="lead">Unlock Digital Mastery Effortlessly! Explore and enhance your skills with our user‑friendly
+            platform.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#classes">Start learning</a>
+            <a class="btn btn-ghost" href="#why">Learn more</a>
+          </div>
+          <div class="trusted">
+            <span>Trusted by</span>
+            <ul>
+              <li><img src="./assets/img/Google Logotype.svg" alt="Google Logotype"></li>
+              <li><img src="./assets/img/Canva Logotype.svg" alt="Canva Logotype"></a></li>
+              <li><img src="./assets/img/Amazon Logotype.svg" alt="Amazon Logotype"></li>
+              <li><img src="./assets/img/Sketch Logotype.svg" alt="Sketch Logotype"></li>
+            </ul>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/img/hero-media.svg" alt="Happy student learning online" />
+          <figcaption class="sr-only">A preview of the platform and learners</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Feature highlights -->
+    <section id="features" class="features section">
+      <div class="container">
+        <div class="section-head centered">
+          <div class="marker">Why choose us</div>
+          <h2>Best Learning Experience</h2>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true"><img src="assets/img/Person.svg" alt="Person"></div>
+            <h3>Expert Instructor</h3>
+            <p>Empower yourself with the knowledge and skills gained through online education.</p>
+            <a href="#" class="more">Learn more →</a>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true"><img src="./assets/img/MonitorPlay.svg" alt="Monitor Play"></div>
+            <h3>Interactive Learning</h3>
+            <p>Engaging lessons with projects to cement your understanding and build portfolio pieces.</p>
+            <a href="#" class="more">Learn more →</a>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true"><img src="./assets/img/LockKeyOpen.svg" alt="Lock Key Open"></div>
+            <h3>Lifetime Access</h3>
+            <p>Revisit any lesson, anytime, from any device—your learning never expires.</p>
+            <a href="#" class="more">Learn more →</a>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true"><img src="./assets/img/Certificate.svg" alt="Certificate"></div>
+            <h3>Verified Certificate</h3>
+            <p>Earn a shareable certificate to showcase your achievement on LinkedIn and CV.</p>
+            <a href="#" class="more">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / metrics -->
+    <section id="why" class="about section">
+      <div class="container about-grid">
+        <figure class="about-media">
+          <img src="assets/img/Image-platform.svg" alt="Students learning together">
+        </figure>
+        <div class="about-copy">
+          <div class="marker">About us</div>
+          <h2>E‑Learning Platform for Digital Skills</h2>
+          <p>Empower yourself with the knowledge and skills gained through online education! The key to your future!</p>
+          <ul class="metrics">
+            <li><span class="num">15+</span><span class="label">Years of experience</span></li>
+            <li><span class="num">100k</span><span class="label">Students worldwide</span></li>
+            <li><span class="num">45+</span><span class="label">Class subjects</span></li>
+            <li><span class="num">98%</span><span class="label">Student satisfaction</span></li>
+          </ul>
+          <a class="btn btn-primary" href="#classes">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best selling classes -->
+    <section id="classes" class="classes section">
+      <div class="container">
+        <div class="section-head">
+          <div class="marker">Our Class</div>
+          <h2>Best selling class</h2>
+          <div class="pills">
+            <button class="pill" data-filter="uiux">UI/UX Design</button>
+            <button class="pill" data-filter="webdev">Web Development</button>
+            <button class="pill" data-filter="datasci">Data Science</button>
+          </div>
+        </div>
+
+        <div class="cards-scroller" data-scroller>
+          <button class="scroll-btn prev" aria-label="Scroll left" data-scroll="prev">‹</button>
+          <ul class="card-row" data-cardrow>
+            <li class="card" data-tags="uiux webdev">
+              <img src="assets/img/Rectangle 1461.svg" alt="Design System in Figma">
+              <div class="card-body">
+                <h3>Introduction to Design System in Figma</h3>
+                <p class="meta"><span>11 lessons</span> • <span>5 weeks</span></p>
+                <div class="rating" aria-label="4.9 out of 5"><img src="./assets/img/Star 1.svg" alt="Star"> 4.9</div>
+                <div class="price">$350</div>
+              </div>
+            </li>
+            <li class="card" data-tags="uiux">
+              <img src="assets/img/Rectangle 1462.svg" alt="Design Thinking Framework">
+              <div class="card-body">
+                <h3>Design Thinking Framework</h3>
+                <p class="meta"><span>12 lessons</span> • <span>5 weeks</span></p>
+                <div class="rating"><img src="./assets/img/Star 1.svg" alt="Star"> 4.7</div>
+                <div class="price">$360</div>
+              </div>
+            </li>
+            <li class="card" data-tags="uiux">
+              <img src="assets/img/Rectangle 1463.svg" alt="Design Fundamentals">
+              <div class="card-body">
+                <h3>Design Principles & Fundamentals</h3>
+                <p class="meta"><span>15 lessons</span> • <span>6 weeks</span></p>
+                <div class="rating"><img src="./assets/img/Star 1.svg" alt="Star"> 4.8</div>
+                <div class="price">$340</div>
+              </div>
+            </li>
+            <li class="card" data-tags="webdev">
+              <img src="assets/img/Rectangle 1464.svg" alt="Responsive Dashboard">
+              <div class="card-body">
+                <h3>Responsive Dashboard for Fintech</h3>
+                <p class="meta"><span>16 lessons</span> • <span>6 weeks</span></p>
+                <div class="rating"><img src="./assets/img/Star 1.svg" alt="Star"> 5.0</div>
+                <div class="price">$380</div>
+              </div>
+            </li>
+          </ul>
+          <button class="scroll-btn next" aria-label="Scroll right" data-scroll="next">›</button>
+        </div>
+
+        <div class="centered">
+          <a href="#" class="btn btn-secondary">View all class</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-head centered">
+          <div class="marker">Testimonial</div>
+          <h2>Student Testimonial</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="tcard">
+            <header>
+              <img src="assets/img/Rectangle 1465.svg" alt="" />
+              <div>
+                <h3>Michael Wong</h3>
+                <p class="role">UI/UX Design Student</p>
+              </div>
+            </header>
+            <p>“Empower yourself with the knowledge and skills gained through online education.”</p>
+          </article>
+          <article class="tcard">
+            <header>
+              <img src="assets/img/Rectangle 1466.svg" alt="" />
+              <div>
+                <h3>Avril Song</h3>
+                <p class="role">Web Development Student</p>
+              </div>
+            </header>
+            <p>“Clear structure, hands‑on projects, and helpful mentors. Loved it!”</p>
+          </article>
+          <article class="tcard">
+            <header>
+              <img src="assets/img/Rectangle 1467.svg" alt="" />
+              <div>
+                <h3>Jeane Wood</h3>
+                <p class="role">Data Science Student</p>
+              </div>
+            </header>
+            <p>“Great community and resources. I finally built my first dashboard!”</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="blog section">
+      <div class="container">
+        <div class="section-head centered">
+          <div class="marker">Blog</div>
+          <h2>Browse articles</h2>
+        </div>
+        <div class="blog-grid">
+          <article class="post">
+            <img src="assets/img/Rectangle 1468.svg" alt="Post cover">
+            <div class="post-body">
+              <h3>Learn UX faster with small daily challenges</h3>
+              <p class="meta">Tom Kennedy • Feb 23, 2024</p>
+              <p>Explore and enhance your skills with our user‑friendly platform.</p>
+              <a class="more" href="#">Read more →</a>
+            </div>
+          </article>
+          <article class="post">
+            <img src="assets/img/Rectangle 1469.svg" alt="Post cover">
+            <div class="post-body">
+              <h3>From zero to dashboard in one weekend</h3>
+              <p class="meta">Tom Kennedy • Feb 23, 2024</p>
+              <p>Practical tips and a step‑by‑step plan to build your first data dashboard.</p>
+              <a class="more" href="#">Read more →</a>
+            </div>
+          </article>
+          <article class="post">
+            <img src="assets/img/Rectangle 1470.png" alt="Post cover">
+            <div class="post-body">
+              <h3>The 2025 roadmap for web developers</h3>
+              <p class="meta">Tom Kennedy • Feb 23, 2024</p>
+              <p>What to learn next, how to practice, and where to look for opportunities.</p>
+              <a class="more" href="#">Read more →</a>
+            </div>
+          </article>
+
+        </div>
+                  <div class="centered">
+          <a href="#" class="btn btn-secondary">View all </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta section">
+      <div class="container cta-inner">
+        <div class="cta-copy">
+          <h2>Join the world largest online learning platform</h2>
+        </div>
+        <form class="cta-form" action="#" method="post">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" type="email" placeholder="name@email.com" required>
+          <button class="btn btn-dark" type="submit">Join now</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand">
+        <a href="#" class="logo"><span class="logo-dot"></span> Digilearn</a>
+        <p>Unlock Digital Mastery Effortlessly. Explore and enhance your skills with our user‑friendly platform.</p>
+      </div>
+      <nav class="fcol">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#why">About us</a></li>
+          <li><a href="#features">Our Class</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="fcol">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </nav>
+      <div class="fcol">
+        <h4>Social media</h4>
+        <ul class="social">
+          <li><a href="#" aria-label="Twitter">𝕏</a></li>
+          <li><a href="#" aria-label="Instagram">IG</a></li>
+          <li><a href="#" aria-label="YouTube">YT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> Digilearn. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
